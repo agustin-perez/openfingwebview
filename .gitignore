@@ -1,3 +1,5 @@
 node_modules
 release-win
 release-builds
+evaFingVersion/release-win
+evaFingVersion/release-builds
