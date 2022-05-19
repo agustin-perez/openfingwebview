@@ -1,6 +1,6 @@
-#WebView en ElectronJS para OpenFING
+# WebView en ElectronJS para EvaFING
 
 WebView sencillo para evitar distracciones en navegadores.
 
-Proyecto OpenFING - https://open.fing.edu.uy - Facultad de Ingeniería - Universidad de la República.
+EvaFING - https://eva.fing.edu.uy - Facultad de Ingeniería - Universidad de la República.
 
