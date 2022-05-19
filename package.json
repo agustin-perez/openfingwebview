@@ -1,0 +1,37 @@
+{
+  "name": "OpenFING_Desktop",
+  "version": "1.0.0",
+  "description": "Simple y sencillo webview para OpenFING",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps",
+    "package-linux": "electron-packager . --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/ofing.png --prune=true --out=release-builds",
+    "package-win" : "electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/ofing.ico --prue=true --out=release-win"
+  },
+  "repository": "https://github.com/agustin-perez/openfingwebview",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Agustin Perez",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^18.2.4",
+    "electron-packager": "^15.5.1"
+  },
+  "dependencies": {
+    "builder": "^5.0.0",
+    "electron-builder": "^23.0.3"
+  },
+  "build": {
+    "appId": "openfingDesktop",
+    "productName": "OpenFing Desktop",
+    "copyright": "Copyright © 2022 Proyecto OpenFING https://open.fing.edu.uy"
+  }
+}
